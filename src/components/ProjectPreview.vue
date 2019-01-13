@@ -1,6 +1,6 @@
 <template>
   <v-card>
-    <v-card-media :src="`/images/projects/${slug}.png`"></v-card-media>
+    <v-img :src="`/images/projects/${slug}.png`"></v-img>
 
     <v-card-title primary-title>
       <h2>{{title}}</h2>

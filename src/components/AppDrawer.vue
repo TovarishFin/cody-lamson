@@ -48,6 +48,26 @@ export default {
           icon: 'mdi-information-outline',
           title: 'About',
           to: '/about'
+        },
+        {
+          icon: 'mdi-home',
+          title: 'Contact',
+          to: '/contact'
+        },
+        {
+          icon: 'mdi-home',
+          title: 'Services',
+          to: '/services'
+        },
+        {
+          icon: 'mdi-home',
+          title: 'Curriculum Vitae',
+          to: '/curriculum-vitae'
+        },
+        {
+          icon: 'mdi-home',
+          title: 'Projects',
+          to: '/projects'
         }
       ]
     }
