@@ -1,6 +1,6 @@
 <template>
   <v-card>
-    <v-card-media :src="image"></v-card-media>
+    <v-card-media :src="`/images/projects/${slug}.png`"></v-card-media>
 
     <v-card-title primary-title>
       <h2>{{title}}</h2>
@@ -33,8 +33,7 @@ export default {
     title: String,
     content: String,
     slug: String,
-    date: String,
-    image: String
+    date: String
   }
 }
 </script>

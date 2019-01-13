@@ -1,6 +1,6 @@
 ---
 title: TV-TWO Contracts
-slug: tv-two-contracts
+slug: tv-two-smart-contracts
 ---
 
 # TV-TWO Contracts
