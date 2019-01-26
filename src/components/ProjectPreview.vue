@@ -1,21 +1,25 @@
 <template>
-  <v-card>
-    <v-img :src="`/images/projects/${slug}.png`"></v-img>
-
+  <v-card style="position: relative;">
     <v-card-title primary-title>
       <h2>{{title}}</h2>
     </v-card-title>
 
+    <g-image fit class="image" :src="`/images/projects/${image}`" />
+
     <v-card-text>
-      <p>{{ content }}</p>
+      <p>{{ details }}</p>
     </v-card-text>
 
-    <v-card-actions>
-      <v-btn :to="`/projects/${slug}`">
-        see more
-      </v-btn>
-      <v-btn>
+    <v-card-text style="margin-bottom: 50px;">
+      <p class="font-weight-bold error--text">{{ warning }}</p>
+    </v-card-text>
+
+    <v-card-actions style="position: absolute; bottom: 5px; left: 5px;">
+      <v-btn color="primary" target="_blank" :href="liveLink">
         view live
+      </v-btn>
+      <v-btn color="secondary" :to="`/projects/${infoLink}`">
+        see more
       </v-btn>
     </v-card-actions>
   </v-card>
@@ -31,9 +35,16 @@ export default {
   },
   props: {
     title: String,
-    content: String,
-    slug: String,
-    date: String
+    details: String,
+    warning: String,
+    liveLink: String,
+    infoLink: String,
+    image: String
   }
 }
 </script>
+<style>
+.image {
+  width: 100%;
+}
+</style>

@@ -32,7 +32,7 @@ export default {
   },
   data() {
     return {
-      drawerOpen: true
+      drawerOpen: false
     }
   },
   methods: {

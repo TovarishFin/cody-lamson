@@ -15,7 +15,7 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
-        path: 'blog/**/*.md',
+        path: 'data/blog/**/*.md',
         typeName: 'Post',
         route: '/blog/:slug'
       }
@@ -23,7 +23,7 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
-        path: 'projects/**/*.md',
+        path: 'data/projects/**/*.md',
         typeName: 'Project',
         route: '/projects/:slug'
       }

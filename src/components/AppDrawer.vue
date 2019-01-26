@@ -50,22 +50,22 @@ export default {
           to: '/about'
         },
         {
-          icon: 'mdi-home',
+          icon: 'mdi-phone',
           title: 'Contact',
           to: '/contact'
         },
         {
-          icon: 'mdi-home',
+          icon: 'mdi-briefcase',
           title: 'Services',
           to: '/services'
         },
         {
-          icon: 'mdi-home',
+          icon: 'mdi-account-box',
           title: 'Curriculum Vitae',
           to: '/curriculum-vitae'
         },
         {
-          icon: 'mdi-home',
+          icon: 'mdi-apps',
           title: 'Projects',
           to: '/projects'
         }

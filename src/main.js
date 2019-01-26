@@ -1,4 +1,6 @@
 import Vuetify from 'vuetify'
+import VueParticles from 'vue-particles'
+import colors from 'vuetify/es5/util/colors'
 import 'vuetify/src/stylus/app.styl'
 import 'vuetify/dist/vuetify.min.css'
 import '@mdi/font/css/materialdesignicons.css'
@@ -9,16 +11,17 @@ import DefaultLayout from '~/layouts/Default.vue'
 export default function(Vue) {
   Vue.use(Vuetify, {
     theme: {
-      primary: '#ee44aa',
-      secondary: '#424242',
-      accent: '#82B1FF',
-      error: '#FF5252',
-      info: '#2196F3',
-      success: '#4CAF50',
-      warning: '#FFC107'
+      primary: colors.purple,
+      secondary: colors.blue,
+      accent: colors.shades.black,
+      error: colors.red,
+      info: colors.teal,
+      success: colors.green,
+      warning: colors.yellow
     },
     customProperties: true,
     iconfont: 'md'
   })
+  Vue.use(VueParticles)
   Vue.component('Layout', DefaultLayout)
 }

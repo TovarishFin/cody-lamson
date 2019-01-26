@@ -1,5 +1,5 @@
 <template>
-  <v-toolbar app>
+  <v-toolbar color="primary" app>
     <v-toolbar-side-icon @click.stop="toggleDrawer"></v-toolbar-side-icon>
     <v-toolbar-title v-text="name"></v-toolbar-title>
     <v-spacer />
@@ -7,13 +7,7 @@
 </template>
 
 <script>
-
-import { VBtn } from 'vuetify/lib'
-
 export default {
-  components: {
-    VBtn
-  },
   props: {
     name: String,
     drawerOpen: Boolean
