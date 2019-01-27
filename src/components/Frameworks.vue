@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <v-card class="mb-4" elevation="4">
     <v-toolbar flat color="secondary">
       <v-toolbar-title>Frameworks & Experience</v-toolbar-title>
     </v-toolbar>
@@ -23,7 +23,7 @@
         </v-card>
     </template>
   </v-data-table>
-  </div>
+  </v-card>
 </template>
 
 <script>

@@ -7,6 +7,8 @@
 </template>
 
 <script>
+import eventBus from '~/events/eventBus'
+
 export default {
   props: {
     name: String,
@@ -14,7 +16,7 @@ export default {
   },
   methods: {
     toggleDrawer() {
-      this.$emit('setDrawer', !this.drawerOpen)
+      eventBus.$emit('setDrawer', !this.drawerOpen)
     }
   }
 }

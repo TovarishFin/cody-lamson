@@ -27,6 +27,7 @@
 
 <script>
 import { VList, VNavigationDrawer } from 'vuetify/lib'
+import eventBus from '~/events/eventBus'
 
 export default {
   components: {
@@ -78,7 +79,7 @@ export default {
         return this.drawerOpen
       },
       set(drawerOpen) {
-        this.$emit('setDrawer', drawerOpen)
+        eventBus.$emit('setDrawer', drawerOpen)
       }
     }
   }

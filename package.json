@@ -12,6 +12,7 @@
     "gridsome": "^0.4.0",
     "material-design-icons-iconfont": "^4.0.3",
     "save": "^2.3.3",
+    "v-clipboard": "^2.2.1",
     "vue-particles": "^1.0.9",
     "vue-typer": "^1.2.0",
     "vuetify": "^1.4.1"

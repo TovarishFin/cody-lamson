@@ -1,5 +1,5 @@
 <template>
-    <v-container grid-list-xl>
+    <v-container class="pa-0 mb-4" grid-list-xl>
       <v-layout row wrap>
         <v-flex 
           v-for="(project, i) in projects" 

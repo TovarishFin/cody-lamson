@@ -1,5 +1,6 @@
 import Vuetify from 'vuetify'
 import VueParticles from 'vue-particles'
+import VClipboard from 'v-clipboard'
 import colors from 'vuetify/es5/util/colors'
 import 'vuetify/src/stylus/app.styl'
 import 'vuetify/dist/vuetify.min.css'
@@ -23,5 +24,6 @@ export default function(Vue) {
     iconfont: 'md'
   })
   Vue.use(VueParticles)
+  Vue.use(VClipboard)
   Vue.component('Layout', DefaultLayout)
 }
