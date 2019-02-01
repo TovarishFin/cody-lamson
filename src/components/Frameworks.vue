@@ -4,25 +4,25 @@
       <v-toolbar-title>Frameworks & Experience</v-toolbar-title>
     </v-toolbar>
     <v-data-table
-    :headers="headers"
-    :items="frameworks"
-    class="elevation-1"
-    expand
-    item-key="framework"
-    hide-actions
-  >
-    <template slot="items" slot-scope="props">
-      <tr class="clickable" @click="props.expanded = !props.expanded">
-        <td>{{ props.item.framework }}</td>
-        <td>{{ props.item.time }}</td>
-      </tr>
-    </template>
-    <template slot="expand" slot-scope="props">
+      :headers="headers"
+      :items="frameworks"
+      class="elevation-1"
+      expand
+      item-key="framework"
+      hide-actions
+    >
+      <template slot="items" slot-scope="props">
+        <tr class="clickable" @click="props.expanded = !props.expanded">
+          <td>{{ props.item.framework }}</td>
+          <td>{{ props.item.time }}</td>
+        </tr>
+      </template>
+      <template slot="expand" slot-scope="props">
         <v-card flat>
-          <v-card-text>{{props.item.details}}</v-card-text>
+          <v-card-text>{{ props.item.details }}</v-card-text>
         </v-card>
-    </template>
-  </v-data-table>
+      </template>
+    </v-data-table>
   </v-card>
 </template>
 

@@ -1,6 +1,12 @@
 <template>
   <Layout>
-    <v-btn class="mb-4" block color="primary" target="_blank" href="/files/CodyLamsonCV.pdf">
+    <v-btn
+      class="mb-4"
+      block
+      color="primary"
+      target="_blank"
+      href="/files/CodyLamsonCV.pdf"
+    >
       download my cv
     </v-btn>
     <logo-grid />

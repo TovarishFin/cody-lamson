@@ -1,7 +1,7 @@
 <template>
   <v-card style="position: relative;">
     <v-card-title primary-title>
-      <h2>{{title}}</h2>
+      <h2>{{ title }}</h2>
     </v-card-title>
 
     <g-image fit class="image" :src="`/images/projects/${image}`" />

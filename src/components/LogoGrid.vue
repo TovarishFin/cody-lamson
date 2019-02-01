@@ -1,12 +1,19 @@
 <template>
   <v-card class="mb-4 pa-4" elevation="4">
-      <v-container grid-list-sm align-center justify-center>
-        <v-layout row wrap align-center justify-center>
-          <v-flex v-for="(logo, i) in logos" :key="i" xs3 md2 xl1 style="text-align: center;">
-            <g-image :src="`/images/logos/${logo}`" :alt="logo" class="image" />
-          </v-flex>
-        </v-layout>
-      </v-container>
+    <v-container grid-list-sm align-center justify-center>
+      <v-layout row wrap align-center justify-center>
+        <v-flex
+          v-for="(logo, i) in logos"
+          :key="i"
+          xs3
+          md2
+          xl1
+          style="text-align: center;"
+        >
+          <g-image :src="`/images/logos/${logo}`" :alt="logo" class="image" />
+        </v-flex>
+      </v-layout>
+    </v-container>
   </v-card>
 </template>
 
@@ -63,5 +70,4 @@ export default {
 }
 </script>
 
-<style>
-</style>
+<style></style>

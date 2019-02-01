@@ -2,8 +2,12 @@
   <v-app dark>
     <app-drawer :drawerOpen="drawerOpen" @setDrawer="setDrawer" />
 
-    <app-toolbar :drawerOpen="drawerOpen" :name="'FIX ME!'" @setDrawer="setDrawer" />
-    
+    <app-toolbar
+      :drawerOpen="drawerOpen"
+      :name="'FIX ME!'"
+      @setDrawer="setDrawer"
+    />
+
     <v-content>
       <v-container>
         <v-slide-y-transition mode="out-in">

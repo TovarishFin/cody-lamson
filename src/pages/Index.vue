@@ -1,10 +1,20 @@
 <template>
   <Layout>
     <div class="splash-container">
-      <vue-particles class="particles" color="#9c27b0" background-color="transparent" />
+      <vue-particles
+        class="particles"
+        color="#9c27b0"
+        background-color="transparent"
+      />
       <span class="display-3 splash-intro">
         <p>I am...</p>
-        <vue-typer class="typer-1" :text="typingText" eraseStyle="backspace" :eraseDelay="50" :typeDelay="50" />
+        <vue-typer
+          class="typer-1"
+          :text="typingText"
+          eraseStyle="backspace"
+          :eraseDelay="50"
+          :typeDelay="50"
+        />
       </span>
     </div>
     <div class="splash-spacer" />

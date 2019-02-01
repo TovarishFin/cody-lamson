@@ -1,7 +1,7 @@
 <template>
   <div>
     <languages />
-    <br>
+    <br />
     <frameworks />
   </div>
 </template>
@@ -18,5 +18,4 @@ export default {
 }
 </script>
 
-<style>
-</style>
+<style></style>
