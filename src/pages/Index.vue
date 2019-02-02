@@ -21,16 +21,34 @@
     <intro />
     <logo-grid />
     <experience />
-    <projects />
+    <project-list :projects="$page.projects.edges" />
   </Layout>
 </template>
+
+<page-query>
+  query Projects {
+    projects: allProject  {
+      edges {
+        node {
+          title,
+          slug,
+          image,
+          liveLink,
+          infoLink,
+          warning,
+          details
+        }
+      }
+    }
+  }
+</page-query>
 
 <script>
 import { VueTyper } from 'vue-typer'
 import Intro from '~/components/Intro'
 import LogoGrid from '~/components/LogoGrid'
 import Experience from '~/components/Experience'
-import Projects from '~/components/AllProjects'
+import ProjectList from '~/components/ProjectList'
 
 export default {
   components: {
@@ -38,7 +56,7 @@ export default {
     Intro,
     LogoGrid,
     Experience,
-    Projects
+    ProjectList
   },
   data() {
     return {

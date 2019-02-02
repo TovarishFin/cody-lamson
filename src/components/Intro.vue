@@ -272,7 +272,7 @@
         publicly. If you would like to see some examples or perhaps something a
         little more specific, please get in touch and I'd be happy to send along
         a few examples. You can find some projects (both personal and
-        professional) <g-link to="/projects">here</g-link>.
+        professional) <g-link to="/all-projects">here</g-link>.
       </p>
     </v-card-text>
   </v-card>

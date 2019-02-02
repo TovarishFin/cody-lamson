@@ -4,14 +4,16 @@
 
     <app-toolbar
       :drawerOpen="drawerOpen"
-      :name="'FIX ME!'"
+      :name="getPageName($route.name)"
       @setDrawer="setDrawer"
     />
 
     <v-content>
       <v-container>
         <v-slide-y-transition mode="out-in">
-          <div><slot></slot></div>
+          <div id="dicks">
+            <slot />
+          </div>
         </v-slide-y-transition>
       </v-container>
     </v-content>
@@ -59,6 +61,10 @@ export default {
     setNotifier(open, text) {
       this.notifierOpen = open
       this.notifierText = text
+    },
+    getPageName(routeName) {
+      const result = routeName.replace(/([A-Z])/g, ' $1')
+      return result.charAt(0).toUpperCase() + result.slice(1)
     }
   }
 }

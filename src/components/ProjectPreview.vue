@@ -1,10 +1,10 @@
 <template>
-  <v-card style="position: relative;">
-    <v-card-title primary-title>
-      <h2>{{ title }}</h2>
-    </v-card-title>
+  <v-card style="position: relative;" elevation="4">
+    <v-toolbar color="secondary"
+      ><h2>{{ title }}</h2></v-toolbar
+    >
 
-    <g-image fit class="image" :src="`/images/projects/${image}`" />
+    <g-image fit class="image" :src="image" />
 
     <v-card-text>
       <p>{{ details }}</p>

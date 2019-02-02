@@ -7,12 +7,7 @@
     app
   >
     <v-list>
-      <v-list-tile
-        value="true"
-        v-for="(item, i) in items"
-        :to="item.to"
-        :key="`item-${i}`"
-      >
+      <v-list-tile v-for="(item, i) in items" :to="item.to" :key="`item-${i}`">
         <v-list-tile-action>
           <v-icon v-html="item.icon"></v-icon>
         </v-list-tile-action>
@@ -68,7 +63,7 @@ export default {
         {
           icon: 'mdi-apps',
           title: 'Projects',
-          to: '/projects'
+          to: '/all-projects'
         }
       ]
     }

@@ -12,19 +12,37 @@
     <logo-grid />
     <languages />
     <frameworks />
-    <all-projects />
+    <project-list :projects="$page.projects.edges" />
   </Layout>
 </template>
 
+<page-query>
+  query Projects {
+    projects: allProject  {
+      edges {
+        node {
+          title,
+          slug,
+          image,
+          liveLink,
+          infoLink,
+          warning,
+          details
+        }
+      }
+    }
+  }
+</page-query>
+
 <script>
-import AllProjects from '~/components/AllProjects'
+import ProjectList from '~/components/ProjectList'
 import Languages from '~/components/Languages'
 import Frameworks from '~/components/Frameworks'
 import LogoGrid from '~/components/LogoGrid'
 
 export default {
   components: {
-    AllProjects,
+    ProjectList,
     Languages,
     Frameworks,
     LogoGrid

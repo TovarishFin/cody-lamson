@@ -1,8 +1,31 @@
 ---
 title: React Store Demo
 slug: react-store-demo
+infoLink: react-store-demo
+image: /images/projects/react-store-demo.png
+details: Old proof of concept using React.
+features:
+  - name: Demo of React Fundamental Concepts
+    description: This app uses react to demonstrate competence with all of the fundamentals of React. These fundamentals include things such as component creation, component composition, use of JSX, updating UI through state changes, passing props to children, lifting state up to a common component, react events, animating react components through react CSS transition groups, authentication, and using react router.
+  - name: Authentication via firebase
+    description: Users can "claim a store" through logging in via GitHub or Google. After the store has been claimed, only that owner can update the inventory.
+  - name: Manage inventory
+    description: Once logged in, a user can update properties of existing products, add products, and remove products. Inventory changes are reflected in real time using Firebase.
+  - name: Add/Remove Items to Order
+    description: "\"Customers\" can add and remove items to their order."
+  - name: "\"Customers\" can add and remove items to their order."
+    description: Clean looking animations implemented for order updates and inventory updates.
+languages:
+  - name: Javascript
+    description: Used with React.
+  - name: Firebase
+    description: Used for the server, authentication, and the database.
+  - name: React
+    description: Used for the UI of the project.
+  - name: React Router
+    description: Used to handle route changes.
 ---
 
-# React Store Demo
+# Additional Info
 
 react store demo stuff goes here...
