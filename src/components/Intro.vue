@@ -23,189 +23,133 @@
     <v-card-text>
       <p class="headline primary--text">A Brief History of Cody</p>
       <p>
-        I am a full stack web developer who has taken an extreme interest in
-        Ethereum and blockchain in general. I have been following the scene and
-        have owned some cryptocurrency since 2012 but have only recently gotten
-        involved technically. I have been spending the last year and a half
-        building and extensively testing smart contracts both professionally and
-        in my free time. It has become a very serious passion of mine.
+        I am a full stack web developer who has spent the last several years
+        working with ethereum. However, I have been following the cryptocurrency
+        scene since 2012 (mostly bitcoin). In the past few years I have worked
+        with smart contracts as well as the DApps that connect to them. I strive
+        to write very high quality code which is extensively tested. This is
+        extremely important for things such as smart contracts where you need to
+        "get it right the first time". I have a variety of different smart
+        contract related projects which are public on my
+        <a target="_blank" href="https://github.com/TovarishFin">GitHub</a>. I
+        am most comfortable working with solidity and javascript through I am
+        always happy to branch out and learn new things.
       </p>
-    </v-card-text>
 
-    <v-card-text>
+      <p>
+        Before my work with ethereum related projects, I worked on various
+        projects in both a backend and frontend capacity. The most notable
+        company that I did work for was Adidas, where I was working on backend
+        for a join venture between Adidas and Ottobock. I have built some other
+        neat things for smaller clients such as a care home management system
+        where most of the work was frontend focused (though I did build the
+        supporting backend as well).
+      </p>
+
       <p class="headline primary--text">Core Competencies</p>
       <p class="title secondary--text">Solidity/Smart Contracts</p>
       <p>
-        I have been working full-time and in my free time on smart contracts
-        using solidity for the last 1.5 years. Ethereum is quite new and finding
-        developers with more than a year of experience in this field is rather
-        uncommon. This shows in the quality of my work, the solutions I offer,
-        and my demand for extensive test coverage when creating smart contracts.
+        I have been spending both my professional and personal time on ethereum
+        based projects for the last several years. Ethereum is still quite new
+        and finding developers with more than a year of experience in this field
+        is rather uncommon. My experience shows in the quality/speed of my work,
+        the solutions I offer, and my demand/pursuit for extensive test coverage
+        when creating smart contracts.
       </p>
+
       <p class="title secondary--text">Smart Contract Related Competencies</p>
-      <v-list>
-        <v-list-tile>
-          <v-list-tile-content>
-            <v-list-tile-title>
-              Upgradeable Contracts
-            </v-list-tile-title>
-            <v-list-tile-sub-title>
-              Implemented a delegate call proxy factory pattern for deploying
-              multiple instances of a contract in a gas efficient manner. Took
-              the concept further and chained delegate calls in order to work
-              around gas limits for a huge smart contract.
-            </v-list-tile-sub-title>
-          </v-list-tile-content>
-        </v-list-tile>
+      <p class="font-weight-bold subheading">Upgradeable Contracts</p>
+      <p>
+        Implemented a delegate call proxy factory pattern for deploying multiple
+        instances of a contract in a gas efficient manner. Took the concept
+        further and chained delegate calls in order to work around gas limits
+        for a huge smart contract. I have also come up with a pattern for "mass
+        upgradeable" smart contracts. I have implemented Upgradeable contracts
+        in one way or another for 4 different clients on different sets of smart
+        contracts so far.
+      </p>
 
-        <v-list-tile>
-          <v-list-tile-content>
-            <v-list-tile-title>
-              ERC20 Tokens
-            </v-list-tile-title>
-            <v-list-tile-sub-title>
-              Plenty of experience with this industry standard. Have an extended
-              ERC20 token that I wrote audited and deployed
-            </v-list-tile-sub-title>
-          </v-list-tile-content>
-        </v-list-tile>
+      <p class="font-weight-bold subheading">ERC20 Tokens</p>
+      <p>
+        Have plenty of experience with this industry standard. I have written
+        several audited and mainnet-deployed ERC20 token contracts. The most
+        noteable one is <b>BrickblockToken (BBK)</b> which can be found on
+        exchanges and market cap listings.
+      </p>
 
-        <v-list-tile>
-          <v-list-tile-content>
-            <v-list-tile-title>
-              ERC20
-            </v-list-tile-title>
-            <v-list-tile-sub-title>
-              Have been playing around with this in my free time lately. Quite
-              familiar with the concept and am working on a personal project
-              involving this standard in my free time for fun.
-            </v-list-tile-sub-title>
-          </v-list-tile-content>
-        </v-list-tile>
+      <p class="font-weight-bold subheading">ERC721</p>
+      <p>
+        Have built a project implementing this standard. See PicsumToken on my
+        gitbub if you are interested in knowing more.
+      </p>
 
-        <v-list-tile>
-          <v-list-tile-content>
-            <v-list-tile-title>
-              title
-            </v-list-tile-title>
-            <v-list-tile-sub-title>
-              subtitle
-            </v-list-tile-sub-title>
-          </v-list-tile-content>
-        </v-list-tile>
+      <p class="font-weight-bold subheading">Crowdsale Contracts</p>
+      <p>
+        Also very familiar with this pattern and have written different versions
+        with different requirements.
+      </p>
 
-        <v-list-tile>
-          <v-list-tile-content>
-            <v-list-tile-title>
-              Crowdsale Contracts
-            </v-list-tile-title>
-            <v-list-tile-sub-title>
-              Also very familiar with this pattern and have written different
-              versions with different requirements.
-            </v-list-tile-sub-title>
-          </v-list-tile-content>
-        </v-list-tile>
+      <p class="font-weight-bold subheading">Dividend Paying Smart Contracts</p>
+      <p>
+        Implemented a gas efficient method of distributing dividends which was
+        not common knowledge when implemented. I have seen a few other
+        implementations over time, I still think the method implemented by me is
+        the best I have seen.
+      </p>
 
-        <v-list-tile>
-          <v-list-tile-content>
-            <v-list-tile-title>
-              Dividend Pattern
-            </v-list-tile-title>
-            <v-list-tile-sub-title>
-              Implemented a gas efficient method of distributing dividends which
-              was not common knowledge when implemented.
-            </v-list-tile-sub-title>
-          </v-list-tile-content>
-        </v-list-tile>
+      <p class="font-weight-bold subheading">Oraclize Integration</p>
+      <p>
+        Have used for random generation as well as complex API calls requiring
+        inline assembly to parse.
+      </p>
 
-        <v-list-tile>
-          <v-list-tile-content>
-            <v-list-tile-title>
-              Oraclize Integration
-            </v-list-tile-title>
-            <v-list-tile-sub-title>
-              Have used for random numbers as well as complex API calls
-              requiring inline assembly to parse.
-            </v-list-tile-sub-title>
-          </v-list-tile-content>
-        </v-list-tile>
+      <p class="font-weight-bold subheading">µRaiden</p>
+      <p>
+        Have implemented ERC20 tokens which use µRaiden for offchain token
+        transfers. Was my reason for getting back into python.
+      </p>
 
-        <v-list-tile>
-          <v-list-tile-content>
-            <v-list-tile-title>
-              µRadien
-            </v-list-tile-title>
-            <v-list-tile-sub-title>
-              Have implemented ERC20 tokens which use µRaiden for offchain token
-              transfers. Was my reason for getting back into python.
-            </v-list-tile-sub-title>
-          </v-list-tile-content>
-        </v-list-tile>
+      <p class="font-weight-bold subheading">Solidity Inline Assembly</p>
+      <p>
+        Have gotten pretty deep into inline assembly in order to save on gas
+        costs for smart contracts when absolutely needed. Was also needed for
+        delegate call proxies. Have used for many other things that just cant be
+        done with regular solidity
+      </p>
 
-        <v-list-tile>
-          <v-list-tile-content>
-            <v-list-tile-title>
-              Inline Assembly
-            </v-list-tile-title>
-            <v-list-tile-sub-title>
-              Have gotten pretty deep into inline assembly in order to save on
-              gas costs for smart contracts when absolutely needed. Was also
-              needed for delegate call proxies. Have used for many other things
-              that just cant be done with regular solidity
-            </v-list-tile-sub-title>
-          </v-list-tile-content>
-        </v-list-tile>
+      <p class="font-weight-bold subheading">
+        Merkle Tree Verification
+      </p>
+      <p>
+        Have used Bitcoin block root merkle hashes for verifying Bitcoin UTXOs
+        in an Ethereum smart contract. Have a pretty good understanding on how
+        they work. Am also currently working on creating a Bitcoin clone in Go
+        which also requires merkle tree knowledge.
+      </p>
 
-        <v-list-tile>
-          <v-list-tile-content>
-            <v-list-tile-title>
-              Merkle Trees
-            </v-list-tile-title>
-            <v-list-tile-sub-title>
-              Have used Bitcoin block root merkle hashes for verifying Bitcoin
-              UTXOs in an Ethereum smart contract. Have a pretty good
-              understanding on how they work. Am also currently working on
-              creating a Bitcoin clone in Go which also requires merkle tree
-              knowledge.
-            </v-list-tile-sub-title>
-          </v-list-tile-content>
-        </v-list-tile>
+      <p class="font-weight-bold subheading">DApps</p>
+      <p>
+        I know how to build Dapps using Vue, React, or plain old vanilla
+        javascript. I am no stranger to redux and vuex for wiring up complex
+        contract interactions. I have plenty of experience connecting smart
+        contracts to the web client through web3. I have built/contributed to
+        more than 5 DApps so far.
+      </p>
 
-        <v-list-tile>
-          <v-list-tile-content>
-            <v-list-tile-title>
-              DApps
-            </v-list-tile-title>
-            <v-list-tile-sub-title>
-              Have built/contributed to 3 different DApps so far.
-            </v-list-tile-sub-title>
-          </v-list-tile-content>
-        </v-list-tile>
+      <p class="font-weight-bold subheading">IPFS</p>
+      <p>
+        IPFS offers some very neat features that work well with smart contracts
+        and data integrity. I Have used for large data storage requirements for
+        smart contracts at Brickblock. Have also used for storing wedding photos
+        on CryptoWeddings
+      </p>
 
-        <v-list-tile>
-          <v-list-tile-content>
-            <v-list-tile-title>
-              IPFS
-            </v-list-tile-title>
-            <v-list-tile-sub-title>
-              Have used for large data storage requirements for smart contracts
-              at Brickblock. Have also used for storing wedding photos on
-              CryptoWeddings
-            </v-list-tile-sub-title>
-          </v-list-tile-content>
-        </v-list-tile>
-      </v-list>
-    </v-card-text>
-
-    <v-card-text>
       <p class="title secondary--text">Javascript</p>
       <p>
         I am very comfortable working on projects which involve javascript in
-        any form. I have written both servers and clients using a variety of
-        different frameworks including: React, Angular, Polymer, Node, Express
-        etc. I am now working on integrating this knowledge into my new smart
-        contract knowledge in order to build well tested DApps and smart
-        contracts.
+        any form. I write almost all smart contract tests in javascript. I have
+        written both servers and clients using a variety of different frameworks
+        including: Vue, React, Angular, Polymer, Node, Express etc.
       </p>
 
       <p class="title secondary--text">Web Clients</p>
@@ -215,26 +159,41 @@
         things as offline functionality through service workers, push
         notifications and offline database caching. I also have significant
         experience with real-time database functionality along with all of the
-        benefits and headaches that come with it.
+        benefits and headaches that come with it. As stated above, I have
+        experience with a wide range of frameworks, such as Vue, React, and
+        Angular.s
       </p>
 
       <p class="title secondary--text">Backend Work</p>
       <p>
         Regarding server side work, I have spent considerable time building APIs
         using node as well as leveraging the server to create server side
-        rendered web applications. I am currently interested in building smart
-        contracts using Solidity on the Ethereum blockchain. I have a variety of
-        different smart contract related projects which are public on my
-        <a target="_blank" href="https://github.com/TovarishFin">GitHub</a>.
+        rendered web applications. I have quite a bit of experience with MongoDB
+        and have a bit of experience with postgres. Lately ethereum has been my
+        "backend" for most of the applications I have been writing.
       </p>
 
       <p class="headline primary--text">Currently Learning/Improving</p>
 
-      <p class="title secondary--text">ERC721</p>
+      <p class="title secondary--text">
+        State Channels & Other 2nd layer solutions
+      </p>
       <p>
-        I am currently playing with ERC721 Non-Fungible tokens and am building a
-        personal project using it in my free time. For me, building a project is
-        the best learning experience.
+        I find state channels to be fascinating and have been doing research
+        learning different approaches to the topic. The most fascinating that I
+        have found so far is the generalized solution given by
+        <a href="https://www.counterfactual.com/">counterfactual</a> If you
+        haven't read their whitepaper, I highly suggest you do!
+      </p>
+
+      <p class="title secondary--text">
+        Other Smart Contract Blockchains
+      </p>
+      <p>
+        I have spent some time learning how things work in EOS and would am
+        trying to find the time to spend some time building a real project with
+        it. There are some very neat differences between EOS and Ethereum that
+        would make building a project with it interesting...
       </p>
 
       <p class="title secondary--text">Kubernetes</p>
@@ -256,7 +215,9 @@
       <p>
         Have used for small projects. Most recently I have used it for using
         µRaiden in order to make off-chain ERC20 token transfers on the Ethereum
-        blockchain.
+        blockchain. I have noticed more and more neat ethereum related tools
+        being built using python... definitely need to spend more time getting
+        better with python.
       </p>
 
       <p class="title secondary--text">Teamwork</p>

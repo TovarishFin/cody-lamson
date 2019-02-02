@@ -23,13 +23,16 @@
     <div class="splash-spacer" />
     <intro />
     <logo-grid />
-    <experience />
+    <experience
+      :frameworkData="$page.frameworkData.edges"
+      :langData="$page.langData.edges"
+    />
     <project-list :projects="$page.projects.edges" />
   </Layout>
 </template>
 
 <page-query>
-  query Projects {
+  query {
     projects: allProject  {
       edges {
         node {
@@ -40,6 +43,26 @@
           infoLink,
           warning,
           details
+        }
+      }
+    }
+    langData: allLanguage  {
+      edges {
+        node {
+          language,
+          experience,
+          weight,
+          content
+        }
+      }
+    }
+    frameworkData: allFramework  {
+      edges {
+        node {
+          framework,
+          experience,
+          weight,
+          content
         }
       }
     }

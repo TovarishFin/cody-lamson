@@ -1,8 +1,8 @@
 <template>
   <div>
-    <languages />
+    <languages :langData="langData" />
     <br />
-    <frameworks />
+    <frameworks :frameworkData="frameworkData" />
   </div>
 </template>
 
@@ -14,6 +14,16 @@ export default {
   components: {
     languages,
     frameworks
+  },
+  props: {
+    langData: {
+      required: true,
+      type: Array
+    },
+    frameworkData: {
+      required: true,
+      type: Array
+    }
   }
 }
 </script>

@@ -5,21 +5,21 @@
     </v-toolbar>
     <v-data-table
       :headers="headers"
-      :items="languages"
+      :items="formattedLangData"
       class="elevation-1"
       expand
-      item-key="lang"
+      item-key="language"
       hide-actions
     >
       <template slot="items" slot-scope="props">
         <tr class="clickable" @click="props.expanded = !props.expanded">
-          <td>{{ props.item.lang }}</td>
-          <td>{{ props.item.time }}</td>
+          <td>{{ props.item.language }}</td>
+          <td>{{ props.item.experience }}</td>
         </tr>
       </template>
       <template slot="expand" slot-scope="props">
         <v-card flat>
-          <v-card-text>{{ props.item.details }}</v-card-text>
+          <v-card-text><span v-html="props.item.content"/></v-card-text>
         </v-card>
       </template>
     </v-data-table>
@@ -27,14 +27,32 @@
 </template>
 
 <script>
-// eslint-disable-next-line
-import languages, { headers } from '~/data/languages'
-
 export default {
+  props: {
+    langData: {
+      required: true,
+      type: Array
+    }
+  },
   data() {
     return {
-      languages,
-      headers
+      headers: [
+        {
+          text: 'Language',
+          value: 'language',
+          sortable: true
+        },
+        {
+          text: 'Years of Experience',
+          value: 'experience',
+          sortable: true
+        }
+      ]
+    }
+  },
+  computed: {
+    formattedLangData() {
+      return this.langData.map(lang => lang.node)
     }
   }
 }

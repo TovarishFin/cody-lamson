@@ -5,7 +5,7 @@
     </v-toolbar>
     <v-data-table
       :headers="headers"
-      :items="frameworks"
+      :items="formattedFrameworkData"
       class="elevation-1"
       expand
       item-key="framework"
@@ -14,12 +14,12 @@
       <template slot="items" slot-scope="props">
         <tr class="clickable" @click="props.expanded = !props.expanded">
           <td>{{ props.item.framework }}</td>
-          <td>{{ props.item.time }}</td>
+          <td>{{ props.item.experience }}</td>
         </tr>
       </template>
       <template slot="expand" slot-scope="props">
         <v-card flat>
-          <v-card-text>{{ props.item.details }}</v-card-text>
+          <v-card-text><span v-html="props.item.content" /></v-card-text>
         </v-card>
       </template>
     </v-data-table>
@@ -27,14 +27,32 @@
 </template>
 
 <script>
-// eslint-disable-next-line
-import frameworks, { headers } from '~/data/frameworks'
-
 export default {
+  props: {
+    frameworkData: {
+      required: true,
+      type: Array
+    }
+  },
   data() {
     return {
-      frameworks,
-      headers
+      headers: [
+        {
+          text: 'Framework',
+          value: 'framework',
+          sortable: true
+        },
+        {
+          text: 'Years of Experience',
+          value: 'time',
+          sortable: true
+        }
+      ]
+    }
+  },
+  computed: {
+    formattedFrameworkData() {
+      return this.frameworkData.map(framework => framework.node)
     }
   }
 }

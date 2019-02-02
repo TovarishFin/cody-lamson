@@ -27,6 +27,20 @@ module.exports = {
         typeName: 'Project',
         route: '/projects/:slug'
       }
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'data/languages/**/*.md',
+        typeName: 'Language'
+      }
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'data/frameworks/**/*.md',
+        typeName: 'Framework'
+      }
     }
   ]
 }
