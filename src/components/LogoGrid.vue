@@ -10,7 +10,9 @@
           xl1
           style="text-align: center;"
         >
-          <g-image :src="`/images/logos/${logo}`" :alt="logo" class="image" />
+          <v-avatar>
+            <g-image :src="`/images/logos/${logo}`" :alt="logo" class="image" />
+          </v-avatar>
         </v-flex>
       </v-layout>
     </v-container>

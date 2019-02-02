@@ -1,10 +1,6 @@
 <template>
   <Layout>
     <v-card>
-      <v-card-title>
-        <p class="display-2">Services</p>
-      </v-card-title>
-
       <v-card-text>
         <p class="display-1">Services Offered</p>
 
@@ -56,7 +52,7 @@
         <p class="display-1">Rates etc.</p>
 
         <p class="title secondary--text">Rate</p>
-        <p><a href="/contact">Contact</a> me for a quote.</p>
+        <p><g-link to="/contact">Contact</g-link> me for a quote.</p>
 
         <p class="title secondary--text">Payment Methods</p>
         <p>I accept any major cryptocurrency, DAI, or euros.</p>
@@ -70,7 +66,7 @@
         <p class="title secondary--text">Further Discussion</p>
         <p>
           Contact me through any of the methods listed
-          <a href="/contact">here</a>.
+          <g-link to="/contact">here</g-link>.
         </p>
       </v-card-text>
     </v-card>

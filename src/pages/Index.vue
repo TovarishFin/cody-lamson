@@ -16,6 +16,9 @@
           :typeDelay="50"
         />
       </span>
+      <span class="splash-more">
+        <animated-arrow class="more" />
+      </span>
     </div>
     <div class="splash-spacer" />
     <intro />
@@ -49,6 +52,7 @@ import Intro from '~/components/Intro'
 import LogoGrid from '~/components/LogoGrid'
 import Experience from '~/components/Experience'
 import ProjectList from '~/components/ProjectList'
+import AnimatedArrow from '~/components/AnimatedArrow'
 
 export default {
   components: {
@@ -56,7 +60,8 @@ export default {
     Intro,
     LogoGrid,
     Experience,
-    ProjectList
+    ProjectList,
+    AnimatedArrow
   },
   data() {
     return {
@@ -90,6 +95,12 @@ export default {
   left: 0;
   opacity: 0.25;
 }
+.splash-more {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
 .particles {
   position: relative;
   width: 100%;
@@ -103,10 +114,13 @@ export default {
   height: auto;
   width: 70%;
 }
+.more {
+  display: block;
+  margin: auto;
+}
 .vue-typer .custom.char {
   color: #2196f3;
 }
-
 .vue-typer .custom.caret {
   width: 5px;
   background-color: #ffffff;

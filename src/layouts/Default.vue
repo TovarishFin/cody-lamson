@@ -10,11 +10,7 @@
 
     <v-content>
       <v-container>
-        <v-slide-y-transition mode="out-in">
-          <div id="dicks">
-            <slot />
-          </div>
-        </v-slide-y-transition>
+        <slot />
       </v-container>
     </v-content>
 
@@ -27,7 +23,7 @@
   </v-app>
 </template>
 <script>
-import { VApp, VContent, VContainer, VSlideYTransition } from 'vuetify/lib'
+import { VApp, VContent, VContainer } from 'vuetify/lib'
 import eventBus from '~/events/eventBus'
 import AppDrawer from '~/components/AppDrawer'
 import AppToolbar from '~/components/AppToolbar'
@@ -38,7 +34,6 @@ export default {
     VApp,
     VContent,
     VContainer,
-    VSlideYTransition,
     AppDrawer,
     AppToolbar,
     AppFooter

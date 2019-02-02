@@ -1,10 +1,6 @@
 <template>
   <Layout>
     <v-card>
-      <v-card-title>
-        <p class="display-2">Contact</p>
-      </v-card-title>
-
       <v-list two-line subheader>
         <v-list-tile avatar>
           <v-list-tile-avatar>

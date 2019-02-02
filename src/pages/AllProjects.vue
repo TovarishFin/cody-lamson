@@ -1,10 +1,6 @@
 <template>
   <Layout>
     <v-card>
-      <v-card-title>
-        <p class="display-2">Previous Projects</p>
-      </v-card-title>
-
       <project-list :projects="$page.projects.edges" />
     </v-card>
   </Layout>
