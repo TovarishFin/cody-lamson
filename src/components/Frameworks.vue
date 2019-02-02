@@ -19,7 +19,7 @@
       </template>
       <template slot="expand" slot-scope="props">
         <v-card flat>
-          <v-card-text><span v-html="props.item.content" /></v-card-text>
+          <v-card-text><span v-html="props.item.content"/></v-card-text>
         </v-card>
       </template>
     </v-data-table>
