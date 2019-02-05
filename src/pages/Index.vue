@@ -8,13 +8,14 @@
       /> -->
       <span class="display-3 splash-intro">
         <p>I am...</p>
-        <!-- <vue-typer
+        <component
+          :is="clientTyper"
           class="typer-1"
           :text="typingText"
           eraseStyle="backspace"
           :eraseDelay="50"
           :typeDelay="50"
-        /> -->
+        />
       </span>
       <span class="splash-more">
         <animated-arrow class="more" />
@@ -99,6 +100,7 @@ export default {
   },
   data() {
     return {
+      clientLoaded: false,
       typingText: [
         'a blockchain developer',
         'a full stack developer',
@@ -106,6 +108,13 @@ export default {
         'a backend developer',
         'Cody Lamson'
       ]
+    }
+  },
+  computed: {
+    clientTyper() {
+      return typeof window != 'undefined' && window.document
+        ? require('vue-typer').VueTyper
+        : null
     }
   }
 }

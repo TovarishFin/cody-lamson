@@ -11,7 +11,7 @@
           style="text-align: center;"
         >
           <v-avatar>
-            <g-image :src="`/images/logos/${logo}`" :alt="logo" class="image" />
+            <g-image :src="`/images/logos/${logo}`" class="image" />
           </v-avatar>
         </v-flex>
       </v-layout>
