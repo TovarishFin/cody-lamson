@@ -45,11 +45,7 @@ export default {
   },
   computed: {
     formattedProjects() {
-      const thing = [...this.projects]
-        .map(project => project.node)
-        .sort(this.compare)
-      thing.map(t => console.log(t.title, t.weight))
-      return thing
+      return [...this.projects].map(project => project.node).sort(this.compare)
     }
   }
 }
