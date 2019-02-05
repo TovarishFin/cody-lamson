@@ -16,6 +16,13 @@
         <tr class="clickable" @click="props.expanded = !props.expanded">
           <td>{{ props.item.language }}</td>
           <td>{{ props.item.experience }}</td>
+          <td>
+            <v-btn
+              class="ml-0"
+              :color="props.expanded ? 'secondary' : 'primary'"
+              >{{ props.expanded ? 'read less' : 'read more' }}</v-btn
+            >
+          </td>
         </tr>
       </template>
       <template slot="expand" slot-scope="props">
@@ -46,6 +53,9 @@ export default {
         {
           text: 'Years of Experience',
           value: 'experience'
+        },
+        {
+          text: 'Read More'
         }
       ]
     }

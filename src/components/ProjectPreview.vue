@@ -15,8 +15,13 @@
     </v-card-text>
 
     <v-card-actions style="position: absolute; bottom: 5px; left: 5px;">
-      <v-btn color="primary" target="_blank" :href="liveLink">
-        view live
+      <v-btn
+        :disabled="!liveLink"
+        color="primary"
+        target="_blank"
+        :href="liveLink"
+      >
+        {{ !liveLink ? 'Project Moved' : 'View Live' }}
       </v-btn>
       <v-btn color="secondary" :to="`/projects/${infoLink}`">
         see more
