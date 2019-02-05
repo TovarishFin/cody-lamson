@@ -247,7 +247,7 @@ export default {
   },
   methods: {
     copyToClipboard(message, item) {
-      this.$clipboard(item)
+      // this.$clipboard(item)
       eventBus.$emit('setNotifier', true, message)
     }
   }

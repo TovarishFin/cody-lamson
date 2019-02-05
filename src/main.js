@@ -1,11 +1,11 @@
 import Vuetify from 'vuetify'
-import VueParticles from 'vue-particles'
-import VClipboard from 'v-clipboard'
+// import VueParticles from 'vue-particles'
+// import VClipboard from 'v-clipboard'
 import colors from 'vuetify/es5/util/colors'
 import 'vuetify/src/stylus/app.styl'
 import 'vuetify/dist/vuetify.min.css'
-import '@mdi/font/css/materialdesignicons.css'
-import 'material-design-icons-iconfont/dist/material-design-icons.css'
+// import '@mdi/font/css/materialdesignicons.css'
+// import 'material-design-icons-iconfont/dist/material-design-icons.css'
 
 import DefaultLayout from '~/layouts/Default.vue'
 
@@ -23,7 +23,7 @@ export default function(Vue) {
     customProperties: true,
     iconfont: 'md'
   })
-  Vue.use(VueParticles)
-  Vue.use(VClipboard)
   Vue.component('Layout', DefaultLayout)
+  // Vue.use(VueParticles)
+  // Vue.use(VClipboard)
 }

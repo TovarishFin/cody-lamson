@@ -1,20 +1,20 @@
 <template>
   <Layout>
     <div class="splash-container">
-      <vue-particles
+      <!-- <vue-particles
         class="particles"
         color="#9c27b0"
         background-color="transparent"
-      />
+      /> -->
       <span class="display-3 splash-intro">
         <p>I am...</p>
-        <vue-typer
+        <!-- <vue-typer
           class="typer-1"
           :text="typingText"
           eraseStyle="backspace"
           :eraseDelay="50"
           :typeDelay="50"
-        />
+        /> -->
       </span>
       <span class="splash-more">
         <animated-arrow class="more" />
@@ -71,7 +71,7 @@
 </page-query>
 
 <script>
-import { VueTyper } from 'vue-typer'
+// import { VueTyper } from 'vue-typer'
 import Intro from '~/components/Intro'
 import LogoGrid from '~/components/LogoGrid'
 import Experience from '~/components/Experience'
@@ -90,7 +90,7 @@ export default {
     ]
   },
   components: {
-    VueTyper,
+    // VueTyper,
     Intro,
     LogoGrid,
     Experience,
