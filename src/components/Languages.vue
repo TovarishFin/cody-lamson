@@ -55,7 +55,9 @@ export default {
           value: 'experience'
         },
         {
-          text: 'Read More'
+          text: 'Read More',
+          value: 'weight',
+          sortable: false
         }
       ]
     }

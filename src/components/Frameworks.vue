@@ -52,11 +52,13 @@ export default {
         },
         {
           text: 'Years of Experience',
-          value: 'time',
+          value: 'experience',
           sortable: true
         },
         {
-          text: 'Read More'
+          text: 'Read More',
+          value: 'weight',
+          sortable: false
         }
       ]
     }

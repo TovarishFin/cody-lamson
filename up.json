@@ -1,0 +1,9 @@
+{
+  "name": "cody-lamson",
+  "profile": "main-aws",
+  "type": "static",
+  "static": {
+    "dir": "dist"
+  },
+  "regions": ["eu-central-1"]
+}
