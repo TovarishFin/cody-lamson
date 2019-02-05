@@ -1,16 +1,14 @@
 <template>
   <Layout>
     <div class="splash-container">
-      <!-- <vue-particles
+      <vue-particles
         class="particles"
         color="#9c27b0"
         background-color="transparent"
-      /> -->
+      />
       <span class="display-3 splash-intro">
         <p>I am...</p>
-        <component
-          :is="clientTyper"
-          class="typer-1"
+        <vue-typer
           :text="typingText"
           eraseStyle="backspace"
           :eraseDelay="50"
@@ -72,12 +70,18 @@
 </page-query>
 
 <script>
-// import { VueTyper } from 'vue-typer'
 import Intro from '~/components/Intro'
 import LogoGrid from '~/components/LogoGrid'
 import Experience from '~/components/Experience'
 import ProjectList from '~/components/ProjectList'
 import AnimatedArrow from '~/components/AnimatedArrow'
+const typingText = [
+  'a blockchain developer',
+  'a full stack developer',
+  'a frontend developer',
+  'a backend developer',
+  'Cody Lamson'
+]
 
 export default {
   metaInfo: {
@@ -91,30 +95,18 @@ export default {
     ]
   },
   components: {
-    // VueTyper,
     Intro,
     LogoGrid,
     Experience,
     ProjectList,
-    AnimatedArrow
+    AnimatedArrow,
+    VueTyper: process.isServer
+      ? { inheritAttrs: false, render: h => h('span', null, [typingText[0]]) }
+      : () => import('vue-typer').then(({ VueTyper }) => VueTyper)
   },
   data() {
     return {
-      clientLoaded: false,
-      typingText: [
-        'a blockchain developer',
-        'a full stack developer',
-        'a frontend developer',
-        'a backend developer',
-        'Cody Lamson'
-      ]
-    }
-  },
-  computed: {
-    clientTyper() {
-      return typeof window != 'undefined' && window.document
-        ? require('vue-typer').VueTyper
-        : null
+      typingText
     }
   }
 }
