@@ -10,6 +10,7 @@
       expand
       item-key="language"
       hide-actions
+      disable-initial-sort
     >
       <template slot="items" slot-scope="props">
         <tr class="clickable" @click="props.expanded = !props.expanded">
@@ -44,15 +45,29 @@ export default {
         },
         {
           text: 'Years of Experience',
-          value: 'experience',
-          sortable: true
+          value: 'experience'
         }
       ]
     }
   },
+  methods: {
+    compare(a, b) {
+      const aWeight = parseInt(a.weight)
+      const bWeight = parseInt(b.weight)
+      if (aWeight < bWeight) {
+        return 1
+      }
+
+      if (aWeight > bWeight) {
+        return -1
+      }
+
+      return 0
+    }
+  },
   computed: {
     formattedLangData() {
-      return this.langData.map(lang => lang.node)
+      return [...this.langData.map(lang => lang.node)].sort(this.compare)
     }
   }
 }

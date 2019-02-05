@@ -10,6 +10,7 @@
       expand
       item-key="framework"
       hide-actions
+      disable-initial-sort
     >
       <template slot="items" slot-scope="props">
         <tr class="clickable" @click="props.expanded = !props.expanded">
@@ -50,9 +51,26 @@ export default {
       ]
     }
   },
+  methods: {
+    compare(a, b) {
+      const aWeight = parseInt(a.weight)
+      const bWeight = parseInt(b.weight)
+      if (aWeight < bWeight) {
+        return 1
+      }
+
+      if (aWeight > bWeight) {
+        return -1
+      }
+
+      return 0
+    }
+  },
   computed: {
     formattedFrameworkData() {
-      return this.frameworkData.map(framework => framework.node)
+      return [...this.frameworkData.map(framework => framework.node)].sort(
+        this.compare
+      )
     }
   }
 }

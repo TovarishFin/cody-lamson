@@ -1,6 +1,9 @@
 ---
 framework: Drizzle
 experience: 6 months
+weight: 96
 ---
 
-Used in order to create quick DApp prototypes which connect to Ethereum smart contracts using metamask.
+## Experience / Usage
+I used drizzle for a client in order to attempt to make the DApp more quickly. I found the library to be too limiting and complicated. 
+I found it easier to simply implement everything in redux-saga instead. 

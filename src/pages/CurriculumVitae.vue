@@ -10,8 +10,8 @@
       download my cv
     </v-btn>
     <logo-grid />
-    <languages />
-    <frameworks />
+    <languages :langData="$page.langData.edges" />
+    <frameworks :frameworkData="$page.frameworkData.edges" />
     <project-list :projects="$page.projects.edges" />
   </Layout>
 </template>
@@ -28,6 +28,26 @@
           infoLink,
           warning,
           details
+        }
+      }
+    }
+    langData: allLanguage  {
+      edges {
+        node {
+          language,
+          experience,
+          weight,
+          content
+        }
+      }
+    }
+    frameworkData: allFramework  {
+      edges {
+        node {
+          framework,
+          experience,
+          weight,
+          content
         }
       }
     }

@@ -1,6 +1,8 @@
 ---
 framework: Parity
 experience: 2 years
+weight: 98
 ---
 
-Have used in combination with truffle to deploy smart contracts to various Ethereum networks in including: ropsten, kovan, and mainnet
+## Experience
+I have used in combination with truffle to deploy smart contracts to various Ethereum networks in including: ropsten, kovan, and mainnet.
