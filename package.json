@@ -7,6 +7,7 @@
     "explore": "gridsome explore"
   },
   "dependencies": {
+    "@gridsome/plugin-google-analytics": "^0.1.0",
     "@mdi/font": "^3.3.92",
     "add": "^2.0.6",
     "gridsome": "^0.4.0",

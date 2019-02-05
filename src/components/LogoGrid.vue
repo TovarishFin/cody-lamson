@@ -224,47 +224,6 @@ export default {
     VContainer,
     VLayout,
     VFlex
-  },
-  data() {
-    return {
-      logos: [
-        'angular.png',
-        'bitcoin.png',
-        'bootstrap.png',
-        'chai.png',
-        'combo.png',
-        'css.png',
-        'drizzle.png',
-        'ethereum.png',
-        'firebase.png',
-        'ganache.png',
-        'golang.png',
-        'gulp.png',
-        'html.png',
-        'javascript.png',
-        'mac.png',
-        'materialui.png',
-        'metamask.svg',
-        'mocha.svg',
-        'mongo.png',
-        'node.png',
-        'npm.png',
-        'polymer.png',
-        'python.png',
-        'raiden.svg',
-        'react.png',
-        'redux.png',
-        'solidity.svg',
-        'truffle.png',
-        'ubuntu.png',
-        'webpack.svg',
-        'yarn.png',
-        'vue.png',
-        'cpp.png',
-        'eos.png',
-        'oraclize.png'
-      ]
-    }
   }
 }
 </script>
