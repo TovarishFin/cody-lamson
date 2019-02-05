@@ -46,6 +46,7 @@ export default {
   },
   computed: {
     image() {
+      console.log(this.project)
       return this.project.image ? this.project.image.src : ''
     }
   }
