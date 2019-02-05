@@ -1,4 +1,5 @@
 ---
+weight: 0
 title: Demo Stripe API Integration
 slug: stripe-api-integration
 liveLink: https://whispering-eyrie-44373.herokuapp.com/
@@ -26,6 +27,7 @@ languages:
     description: Modules are used on both frontend and backend to create payment tokens and run payments with the token.
 ---
 
-# Additional Info
+## Super Old and Unimpressive
+This is some demo that I created like 5+ years ago... why do I even still have this on my site?
 
-stripe api integration stuff here
+Anyways... this just hooks up to the Stripe sandbox api and uses node for the server and angular for the frontend.

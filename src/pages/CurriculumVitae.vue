@@ -27,7 +27,8 @@
           liveLink,
           infoLink,
           warning,
-          details
+          details,
+          weight
         }
       }
     }

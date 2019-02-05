@@ -1,4 +1,5 @@
 ---
+weight: 1400
 title: BitcoinHex Smart Contracts
 slug: bitcoin-hex-smart-contracts
 liveLink: https://github.com/BitcoinHEX/contract
@@ -30,6 +31,14 @@ languages:
     description: Used for merkle tree and ERC20 functionality
 ---
 
-## Additional Info
+## Some Neat Stuff that I Got to Work with
+I think the coolest thing that I got to work with and test on this project was using Bitcoin private keys to claim Ethereum based ERC20 tokens. This is possible because both Bitcoin and Ethereum public keys are of the same format. This combined with elliptic curve recovery for claimer address verification and merkle tree verification for claim amount verification, allow for this to work.
 
-bitcoinhex stuff here...
+## Additional Info
+I actively worked on this project for around 3 months. My role in the project was to pick up the smart contract in their current state and make any changes needed in order to meet requirements of the product owner. In addition to this I was in charge of writing tests. I wrote more than 200 tests for the smart contract.
+
+At a later point requirements for the project changed and the continuing developer decided to do a complete rewrite of the contracts and the underlying tests.
+
+At the time of writing this it seems that the project lead decided to squash commits at the release which means that none of my commits are shown here. However, my name can be found in the `package.json` file for anyone curious.
+
+I still do some consulting for the project from time to time when there are certain patterns that need to be checked for security and/or feasability in regards to limitations of solidity and/or gas limits.

@@ -1,4 +1,5 @@
 ---
+weight: 200
 title: Angular Retail Frontend Site Connecting to Backend
 slug: retail-site-integration
 liveLink: https://fierce-waters-6391.herokuapp.com/
@@ -28,6 +29,5 @@ languages:
     description: Used to interact with deployed smart contracts
 ---
 
-# Additional Info
-
-retail site integration stuff goes here
+## Basic AngularJS e-commerce Site Demo
+There isn't too much that is interesting about this project. It is a really old project which hooks up the the retail backend project also listed on my site. It is a **very** old project.

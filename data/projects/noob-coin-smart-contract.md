@@ -1,4 +1,5 @@
 ---
+weight: 1300
 title: NoobCoin everyone gets 100. Yes even you.
 slug: noob-coin-smart-contract
 liveLink: https://github.com/TovarishFin/NoobCoin
@@ -23,6 +24,5 @@ languages:
     description: Used as a basis for secure smart contracts
 ---
 
-# Additional Info
-
-noobcoin stuff here...
+## Thinking Outside the Box
+I got this idea when seeing a joke token with a symbol of PNS that was registered in the Parity Token Registry. The token was written so that the `totalSupply` always returned 100 tokens. With that in mind I thought it would be a neat idea to use that concept for good instead. The idea is simple... a token where you have 100 tokens to start but can also use them as a regular token. This is really nice for quick tests on testnets where you need a token but don't care **which** token it is. It is also nice for people who are just getting started with ERC20 tokens and dont want to risk real tokens.

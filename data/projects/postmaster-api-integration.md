@@ -1,4 +1,5 @@
 ---
+weight: 0
 title: Demo Postmaster API Integration
 slug: postmaster-api-integration
 liveLink: https://secret-sierra-38785.herokuapp.com/
@@ -26,6 +27,7 @@ languages:
     description: Node module used to make calls to postmaster for postage on the backend.
 ---
 
-# Additional Info
+## Super Old and Unimpressive
+This is some demo that I created like 5+ years ago... why do I even still have this on my site?
 
-postmaster api integration stuff here...
+Anyways... this just hooks up to the postmaster sandbox api and uses node for the server and angular for the frontend. It will print out postage which could be printed and used for shipping products.

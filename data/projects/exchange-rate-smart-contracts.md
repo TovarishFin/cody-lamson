@@ -1,4 +1,5 @@
 ---
+weight: 1500
 title: Exchange Rate Smart Contracts
 slug: exchange-rate-smart-contracts
 liveLink: https://github.com/TovarishFin/fiat-exchange-rate
@@ -23,6 +24,5 @@ languages:
     description: Used as a basis for secure smart contracts
 ---
 
-# Exchange Rate Contracts
-
-exchange rate stuff here...
+## Getting Off-Chain Data on Chain
+Oraclize offers some really neat functionality which opens up whole new possibilities. This set of smart contracts allows one to retrieve any number of exchange rates and it can be done automatically through Oraclize's recursive functionality.

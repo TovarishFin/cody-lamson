@@ -63,8 +63,8 @@ export default {
   },
   methods: {
     compare(a, b) {
-      const aWeight = parseInt(a.weight)
-      const bWeight = parseInt(b.weight)
+      const aWeight = parseInt(a.weight ? a.weight : 0)
+      const bWeight = parseInt(b.weight ? b.weight : 0)
       if (aWeight < bWeight) {
         return 1
       }

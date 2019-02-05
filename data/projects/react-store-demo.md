@@ -1,4 +1,5 @@
 ---
+weight: 400
 title: React Store Demo
 slug: react-store-demo
 infoLink: react-store-demo
@@ -26,6 +27,5 @@ languages:
     description: Used to handle route changes.
 ---
 
-# Additional Info
-
-react store demo stuff goes here...
+## Basic React Demo
+There isn't anything too crazy here... I built this over a day when I was trying to get my foot in the door for React based projects. I have since worked on plenty of React projects professionally.

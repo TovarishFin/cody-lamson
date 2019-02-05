@@ -1,4 +1,5 @@
 ---
+weight: 400
 title: Polymer Photo Editor Element
 slug: photo-editor-component
 liveLink: https://tovarishfin.github.io/guuey-photo-editor/components/guuey-photo-editor/demo/index.html
@@ -32,6 +33,5 @@ languages:
     description: Used to implement some nice looking components such as dialogs and icons.
 ---
 
-# Additional Info
-
-photo editor component stuff here
+## A Byproduct of Mosaic Care
+While developing the care home management solution for Mosaic, I ended up spending some time creating a web component which would allow you to upload and edit a photo. This is the result.

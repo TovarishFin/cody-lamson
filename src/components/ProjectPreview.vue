@@ -1,29 +1,29 @@
 <template>
   <v-card style="position: relative;" elevation="4">
     <v-toolbar color="secondary"
-      ><h2>{{ title }}</h2></v-toolbar
+      ><h2>{{ project.title }}</h2></v-toolbar
     >
 
     <g-image fit class="image" :src="image" />
 
     <v-card-text>
-      <p>{{ details }}</p>
+      <p>{{ project.details }}</p>
     </v-card-text>
 
     <v-card-text style="margin-bottom: 50px;">
-      <p class="font-weight-bold error--text">{{ warning }}</p>
+      <p class="font-weight-bold error--text">{{ project.warning }}</p>
     </v-card-text>
 
     <v-card-actions style="position: absolute; bottom: 5px; left: 5px;">
       <v-btn
-        :disabled="!liveLink"
+        :disabled="!project.liveLink"
         color="primary"
         target="_blank"
-        :href="liveLink"
+        :href="project.liveLink"
       >
-        {{ !liveLink ? 'Project Moved' : 'View Live' }}
+        {{ !project.liveLink ? 'Project Moved' : 'View Live' }}
       </v-btn>
-      <v-btn color="secondary" :to="`/projects/${infoLink}`">
+      <v-btn color="secondary" :to="`/projects/${project.infoLink}`">
         see more
       </v-btn>
     </v-card-actions>
@@ -39,12 +39,15 @@ export default {
     VBtn
   },
   props: {
-    title: String,
-    details: String,
-    warning: String,
-    liveLink: String,
-    infoLink: String,
-    image: String
+    project: {
+      type: Object,
+      required: true
+    }
+  },
+  computed: {
+    image() {
+      return this.project.image ? this.project.image.src : ''
+    }
   }
 }
 </script>

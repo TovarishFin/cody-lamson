@@ -1,4 +1,5 @@
 ---
+weight: 100
 title: Shooter Game Built with Unity
 slug: space-shooter-game
 liveLink: https://space-shooter-50bb9.firebaseapp.com/
@@ -24,6 +25,5 @@ languages:
     description: A game development framework which uses C#.
 ---
 
-# Additional Info
-
-space shooter game stuff goes here....
+## Just Having Fun
+This was a small project where I was having fun messing with C# and Unity on my way to creating a VR based game. The VR game did not turn out as well... :)

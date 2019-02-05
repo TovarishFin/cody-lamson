@@ -18,6 +18,7 @@
           infoLink,
           warning,
           details,
+          weight
         }
       }
     }

@@ -1,4 +1,5 @@
 ---
+weight: 1800
 title: Brickblock Platform
 slug: brickblock-platform
 image: /images/projects/brickblock-platform.png
@@ -22,12 +23,14 @@ languages:
     description: Used for client and server
   - name: React
     description: Used for client
-  - name: Redux
+  - name: Redux/Redux Saga
     description: Used for all async actions such as blockchain related functionality
   - name: Web3
     description: Used to interact with deployed smart contracts
 ---
 
-## Additional Info
+## My Starting Work at Brickblock
+When I first started at Brickblock, my main work was with various React based web apps.
 
-I spent about 30 percent of my time at Brickblock working on the platform. Some major tasks that I worked on were the following:
+## Hooking Smart Contracts up to a Web Client
+Within a few months, I was spending most of my time working on the smart contracts. However I would say that I still spent around 30% of my time on the platform. I spent a lot of time later on connecting the client to the new smart contracts as well as writing/rewriting/testing the different sagas which were used for connecting and managing blockchain state.

@@ -1,4 +1,5 @@
 ---
+weight: 1200
 title: TV-TWO Smart Contracts
 slug: tv-two-smart-contracts
 liveLink: https://github.com/tvtwocom/contracts
@@ -25,6 +26,5 @@ languages:
     description: Used for testing the smart contracts.
 ---
 
-# Additional Info
-
-tv two contracts stuff here...
+## A Small Side Project
+While working at Brickblock, I spent some free time helping out with this project. I built out the basic contracts and then handed it off to an acquaintance due to personal time constraints.

@@ -1,4 +1,5 @@
 ---
+weight: 300
 title: Retail Backend Built with Node.js
 slug: retail-backend
 liveLink: https://ancient-basin-34337.herokuapp.com/login
@@ -50,6 +51,5 @@ languages:
     description: Used for payment pre-auth, and payment capture.
 ---
 
-# Additional Info
-
-retail backend stuff here...
+## Super Old Project
+This is another super old project that I built 5+ years ago when I was first becoming interested in Node and AngularJS. Regardless it is actually kind of cool. It manages sellable products, hooks into stripe API, prints postage for shipping products, and serves up product data for multiple retail sites. Could in theory be used for some sort of an affiliate program.

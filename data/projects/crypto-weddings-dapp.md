@@ -1,4 +1,5 @@
 ---
+weight: 1600
 title: CryptoWeddings DApp
 slug: crypto-weddings-dapp
 liveLink: https://www.cryptoweddings.io/
@@ -34,6 +35,11 @@ languages:
     description: Ddeployed through kubernetes allowing scaling when needed
 ---
 
-# Additional Info
+## My First Personal Project Decentralized Application
+While talking with my wife one night, we came up with this idea. She took care of the designs and I took care of the smart contracts, and DApp.
 
-crypotoweddings stuff here...
+## Great Practice
+I built this during while I was working at Brickblock. A lot of the patterns that I decided to use, I eventually implemented in the Brickblock platform. 
+
+## Mainnet Launch?
+I might one day release this on mainnet... the DApp just never seems to be done and I always have some other new thing that I want to focus on :)

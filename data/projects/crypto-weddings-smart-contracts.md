@@ -1,4 +1,5 @@
 ---
+weight: 1700
 title: CryptoWeddings Smart Contracts
 slug: crypto-weddings-smart-contracts
 liveLink: https://github.com/TovarishFin/crypto-weddings-smart-contracts
@@ -25,6 +26,5 @@ languages:
     description: Usedd as a basis for secure smart contracts
 ---
 
-# Additional Infoa
-
-cryptoweddings contracts stuff here...
+## Immutable Programs... What are they Good for?
+The idea of being able to get married no matter what your sexual orientation is or the local laws opinion on the matter seemed like a pretty good reason for a smart contract. Of course the main issue is not the technical challenge but the legitimacy. Perhaps one day, blockchain weddings will be recognized in some sort of capacity.

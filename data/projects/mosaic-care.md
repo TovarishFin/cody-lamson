@@ -1,7 +1,9 @@
 ---
+weight: 500
 title: Care Home Management Software
 slug: mosaic-care
 infoLink: mosaic-care
+liveLink: https://app.mosaic-care.com/
 image: /images/projects/mosaic-care.png
 details: Care home management software with style using Polymer/Firebase.
 features:
@@ -36,6 +38,8 @@ languages:
     description: Used for the frontend. Used for everything in the frontend, including routing, ui, etc.
 ---
 
-# Additional Info
+## Care Home Management with all the Bells and Whistles
+The client was a designer who ran a care home. He had a taste for the newest tech as well. This meant that he wanted a tool which used a real time database, worked offline, and sent push notifications. This was all delivered.
 
-mosaic care shit here....
+## Polymer
+Originally the project was going to be written in AngularJS, but the client instead wanted to use Polymer. It was an interesting year getting to know another framework, unfortunately it seems that Polymer never really took off.

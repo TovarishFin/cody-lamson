@@ -1,4 +1,5 @@
 ---
+weight: 400
 title: Redux Store Demo
 slug: redux-store-demo
 infoLink: redux-store-demo
@@ -26,6 +27,5 @@ languages:
     description: Used for the management of state for the app (comments and likes).
 ---
 
-# Additional Info
-
-redux store demo stuff here...
+## Basic React Demo
+There isn't anything too crazy here... I built this over a day when I was trying to get my foot in the door for React/Redux based projects. I have since worked on plenty of React/Redux projects professionally.

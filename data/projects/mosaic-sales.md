@@ -1,7 +1,9 @@
 ---
+weight: 300
 title: Sales Site Written with Polymer
 slug: mosaic-sales
 infoLink: mosaic-sales
+liveLink: http://mosaic-care.com
 image: /images/projects/mosaic-sales.png
 details: Sales site written with polymer
 features: 
@@ -24,6 +26,5 @@ languages:
     description: Used to serve up components of the site and pages. Also used for the mailer contact form.
 ---
 
-# Additional Info
-
-mosaic sales shit goes here...
+# Boring Work/Tech but It Works
+There was nothing really special here. Just some basic PHP and html/css. Looks nice and gets the job done. Solutions don't always need to be glorious an cutting edge.

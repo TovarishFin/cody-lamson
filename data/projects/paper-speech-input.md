@@ -1,4 +1,5 @@
 ---
+weight: 400
 title: Polymer Speech Input Component
 slug: paper-speech-input
 liveLink: https://tovarishfin.github.io/paper-speech-input/components/paper-speech-input/
@@ -27,6 +28,5 @@ languages:
     description: Used with Polymer text input and button components.
 ---
 
-# Paper Speech Input
-
-paper speech input stuff here...
+## A Night of Fiddling with Google Voice and Polymer
+This was jsut a fun little idea of creating a Polymer web component which would allow you to speak to type instead.
