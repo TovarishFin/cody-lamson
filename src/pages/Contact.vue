@@ -235,6 +235,16 @@
 import eventBus from '~/events/eventBus'
 
 export default {
+  metaInfo: {
+    title: 'Contact Cody Lamson',
+    meta: [
+      {
+        key: 'description',
+        name: 'description',
+        content: 'A list of methods to contact Cody Lamson'
+      }
+    ]
+  },
   methods: {
     copyToClipboard(message, item) {
       this.$clipboard(item)

@@ -79,6 +79,16 @@ import ProjectList from '~/components/ProjectList'
 import AnimatedArrow from '~/components/AnimatedArrow'
 
 export default {
+  metaInfo: {
+    title: 'Cody Lamson, Full Stack Blockchain Web Developer',
+    meta: [
+      {
+        key: 'description',
+        name: 'description',
+        content: "Cody Lamson's portfolio site"
+      }
+    ]
+  },
   components: {
     VueTyper,
     Intro,

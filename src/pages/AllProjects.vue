@@ -31,6 +31,16 @@ import ProjectList from '~/components/ProjectList'
 export default {
   components: {
     ProjectList
+  },
+  metaInfo: {
+    title: 'Projects Built or Contributed to by Cody Lamson',
+    meta: [
+      {
+        key: 'description',
+        name: 'description',
+        content: 'A (non-exhaustive) list of project built by Cody Lamson'
+      }
+    ]
   }
 }
 </script>

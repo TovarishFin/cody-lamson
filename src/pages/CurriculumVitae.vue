@@ -62,6 +62,16 @@ import Frameworks from '~/components/Frameworks'
 import LogoGrid from '~/components/LogoGrid'
 
 export default {
+  metaInfo: {
+    title: "Cody Lamson's Curriculum Vitae",
+    meta: [
+      {
+        key: 'description',
+        name: 'description',
+        content: "Download or view Cody Lamson's Curriculum Vitae here"
+      }
+    ]
+  },
   components: {
     ProjectList,
     Languages,
