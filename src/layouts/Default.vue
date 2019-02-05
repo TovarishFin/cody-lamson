@@ -10,9 +10,7 @@
 
     <v-content>
       <v-container>
-        <div>
-          <slot />
-        </div>
+        <slot />
       </v-container>
     </v-content>
 
