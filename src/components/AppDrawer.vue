@@ -43,27 +43,27 @@ export default {
         {
           icon: 'mdi-information-outline',
           title: 'About',
-          to: '/about/'
+          to: '/about'
         },
         {
           icon: 'mdi-phone',
           title: 'Contact',
-          to: '/contact/'
+          to: '/contact'
         },
         {
           icon: 'mdi-briefcase',
           title: 'Services',
-          to: '/services/'
+          to: '/services'
         },
         {
           icon: 'mdi-account-box',
           title: 'Curriculum Vitae',
-          to: '/curriculum-vitae/'
+          to: '/curriculum-vitae'
         },
         {
           icon: 'mdi-apps',
           title: 'Projects',
-          to: '/all-projects/'
+          to: '/all-projects'
         }
       ]
     }
