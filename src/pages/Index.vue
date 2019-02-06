@@ -101,7 +101,7 @@ export default {
     ProjectList,
     AnimatedArrow,
     VueTyper: process.isServer
-      ? { inheritAttrs: false, render: h => h('span', null, [typingText[0]]) }
+      ? { inheritAttrs: false, render: h => h('span', null, []) }
       : () => import('vue-typer').then(({ VueTyper }) => VueTyper)
   },
   data() {
