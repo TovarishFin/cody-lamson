@@ -53,7 +53,7 @@ export default {
         {
           icon: 'mdi-briefcase',
           title: 'Services',
-          to: '/services-offered'
+          to: '/consulting'
         },
         {
           icon: 'mdi-account-box',
