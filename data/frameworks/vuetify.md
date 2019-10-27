@@ -1,6 +1,6 @@
 ---
 framework: Vuetify
-experience: 6 months
+experience: proficient
 weight: 92
 ---
 

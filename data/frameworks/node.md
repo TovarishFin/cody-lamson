@@ -1,6 +1,6 @@
 ---
 framework: Node
-experience: 6 years
+experience: expert
 weight: 95
 ---
 

@@ -1,6 +1,6 @@
 ---
 framework: Express
-experience: 5 years
+experience: proficient
 weight: 94
 ---
 

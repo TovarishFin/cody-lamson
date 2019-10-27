@@ -1,6 +1,6 @@
 ---
 framework: Bootstrap
-experience: 2 years
+experience: intermediate
 weight: 0
 ---
 

@@ -1,6 +1,6 @@
 ---
 framework: Ganache / Ganache CLI
-experience: 2 years
+experience: proficient
 weight: 97
 ---
 

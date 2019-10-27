@@ -1,6 +1,6 @@
 ---
 framework: Material UI
-experience: 2.5 years
+experience: proficient
 weight: 0
 ---
 

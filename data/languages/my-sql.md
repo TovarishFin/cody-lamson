@@ -1,6 +1,6 @@
 ---
 language: MySQL
-experience: 1.5 years
+experience: intermediate
 weight: 95
 ---
 

@@ -1,6 +1,6 @@
 ---
 language: PHP
-experience: 4 years
+experience: intermediate
 weight: 0
 ---
 

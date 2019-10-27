@@ -1,6 +1,6 @@
 ---
 language: Javascript
-experience: 7 years
+experience: expert
 weight: 100
 ---
 ## Experience

@@ -51,7 +51,7 @@ export default {
           sortable: true
         },
         {
-          text: 'Years of Experience',
+          text: 'Experience',
           value: 'experience',
           sortable: true
         },

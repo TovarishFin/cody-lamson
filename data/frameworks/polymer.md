@@ -1,6 +1,6 @@
 ---
 framework: Polymer
-experience: 1 year
+experience: intermediate
 weight: 0
 ---
 

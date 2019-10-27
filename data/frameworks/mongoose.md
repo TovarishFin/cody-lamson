@@ -1,6 +1,6 @@
 ---
 framework: Mongoose
-experience: 3 years
+experience: intermediate
 weight: 0
 ---
 

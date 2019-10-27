@@ -1,5 +1,5 @@
 ---
-weight: 1800
+weight: 1600
 title: Brickblock Platform
 slug: brickblock-platform
 image: /images/projects/brickblock-platform.png

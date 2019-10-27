@@ -1,6 +1,6 @@
 ---
 language: Go
-experience: 6 months
+experience: beginner
 weight: 94
 ---
 ## Experience

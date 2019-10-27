@@ -1,6 +1,6 @@
 ---
 language: Solidity
-experience: 2 years
+experience: expert
 weight: 99
 ---
 

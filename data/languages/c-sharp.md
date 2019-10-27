@@ -1,6 +1,6 @@
 ---
 language: C#
-experience: 6 months
+experience: beginner
 weight: 80
 ---
 

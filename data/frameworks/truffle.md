@@ -1,6 +1,6 @@
 ---
 framework: Truffle
-experience: 2 years
+experience: expert
 weight: 100
 ---
 

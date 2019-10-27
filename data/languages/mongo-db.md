@@ -1,6 +1,6 @@
 ---
 language: MongoDB
-experience: 3 years
+experience: proficient
 weight: 96
 ---
 

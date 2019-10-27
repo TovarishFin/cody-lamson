@@ -4,7 +4,55 @@
       <v-layout row wrap align-center justify-center>
         <v-flex xs3 md2 xl1 style="text-align: center;">
           <v-avatar>
-            <g-image src="/images/logos/angular.png" class="image" />
+            <g-image src="/images/logos/ethereum.png" class="image" />
+          </v-avatar>
+        </v-flex>
+
+        <v-flex xs3 md2 xl1 style="text-align: center;">
+          <v-avatar>
+            <g-image src="/images/logos/solidity.svg" class="image" />
+          </v-avatar>
+        </v-flex>
+
+        <v-flex xs3 md2 xl1 style="text-align: center;">
+          <v-avatar>
+            <g-image src="/images/logos/javascript.png" class="image" />
+          </v-avatar>
+        </v-flex>
+
+        <v-flex xs3 md2 xl1 style="text-align: center;">
+          <v-avatar>
+            <g-image src="/images/logos/truffle.png" class="image" />
+          </v-avatar>
+        </v-flex>
+
+        <v-flex xs3 md2 xl1 style="text-align: center;">
+          <v-avatar>
+            <g-image src="/images/logos/ubuntu.png" class="image" />
+          </v-avatar>
+        </v-flex>
+
+        <v-flex xs3 md2 xl1 style="text-align: center;">
+          <v-avatar>
+            <g-image src="/images/logos/waffle.svg" class="image" />
+          </v-avatar>
+        </v-flex>
+
+        <v-flex xs3 md2 xl1 style="text-align: center;">
+          <v-avatar>
+            <g-image src="/images/logos/vue.png" class="image" />
+          </v-avatar>
+        </v-flex>
+
+        <v-flex xs3 md2 xl1 style="text-align: center;">
+          <v-avatar>
+            <g-image src="/images/logos/node.png" class="image" />
+          </v-avatar>
+        </v-flex>
+
+        <v-flex xs3 md2 xl1 style="text-align: center;">
+          <v-avatar>
+            <g-image src="/images/logos/rust.png" class="image" />
           </v-avatar>
         </v-flex>
 
@@ -46,12 +94,6 @@
 
         <v-flex xs3 md2 xl1 style="text-align: center;">
           <v-avatar>
-            <g-image src="/images/logos/ethereum.png" class="image" />
-          </v-avatar>
-        </v-flex>
-
-        <v-flex xs3 md2 xl1 style="text-align: center;">
-          <v-avatar>
             <g-image src="/images/logos/firebase.png" class="image" />
           </v-avatar>
         </v-flex>
@@ -82,12 +124,6 @@
 
         <v-flex xs3 md2 xl1 style="text-align: center;">
           <v-avatar>
-            <g-image src="/images/logos/javascript.png" class="image" />
-          </v-avatar>
-        </v-flex>
-
-        <v-flex xs3 md2 xl1 style="text-align: center;">
-          <v-avatar>
             <g-image src="/images/logos/mac.png" class="image" />
           </v-avatar>
         </v-flex>
@@ -113,12 +149,6 @@
         <v-flex xs3 md2 xl1 style="text-align: center;">
           <v-avatar>
             <g-image src="/images/logos/mongo.png" class="image" />
-          </v-avatar>
-        </v-flex>
-
-        <v-flex xs3 md2 xl1 style="text-align: center;">
-          <v-avatar>
-            <g-image src="/images/logos/node.png" class="image" />
           </v-avatar>
         </v-flex>
 
@@ -160,24 +190,6 @@
 
         <v-flex xs3 md2 xl1 style="text-align: center;">
           <v-avatar>
-            <g-image src="/images/logos/solidity.svg" class="image" />
-          </v-avatar>
-        </v-flex>
-
-        <v-flex xs3 md2 xl1 style="text-align: center;">
-          <v-avatar>
-            <g-image src="/images/logos/truffle.png" class="image" />
-          </v-avatar>
-        </v-flex>
-
-        <v-flex xs3 md2 xl1 style="text-align: center;">
-          <v-avatar>
-            <g-image src="/images/logos/ubuntu.png" class="image" />
-          </v-avatar>
-        </v-flex>
-
-        <v-flex xs3 md2 xl1 style="text-align: center;">
-          <v-avatar>
             <g-image src="/images/logos/webpack.svg" class="image" />
           </v-avatar>
         </v-flex>
@@ -190,19 +202,13 @@
 
         <v-flex xs3 md2 xl1 style="text-align: center;">
           <v-avatar>
-            <g-image src="/images/logos/vue.png" class="image" />
+            <g-image src="/images/logos/angular.png" class="image" />
           </v-avatar>
         </v-flex>
 
         <v-flex xs3 md2 xl1 style="text-align: center;">
           <v-avatar>
             <g-image src="/images/logos/cpp.png" class="image" />
-          </v-avatar>
-        </v-flex>
-
-        <v-flex xs3 md2 xl1 style="text-align: center;">
-          <v-avatar>
-            <g-image src="/images/logos/eos.png" class="image" />
           </v-avatar>
         </v-flex>
 
@@ -228,4 +234,5 @@ export default {
 }
 </script>
 
-<style></style>
+<style scoped>
+</style>

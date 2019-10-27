@@ -1,6 +1,6 @@
 ---
 framework: React
-experience: 2.5 years
+experience: expert
 weight: 91
 ---
 

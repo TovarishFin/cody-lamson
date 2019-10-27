@@ -1,6 +1,6 @@
 ---
 language: HTML
-experience: 10 years
+experience: proficient
 weight: 98
 ---
 

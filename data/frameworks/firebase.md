@@ -1,6 +1,6 @@
 ---
 framework: Firebase
-experience: 1 year
+experience: proficient
 weight: 0
 ---
 

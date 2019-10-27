@@ -14,18 +14,18 @@
         <p class="title secondary--text">Full Stack Work</p>
         <p>
           Can build out the backend, database, and client that you need. Can
-          also do deployments using Kubernetes or Heroku. Comfortable building
+          also do deployments using Kubernetes, aws, Heroku, etc. Comfortable building
           the backend, database, and frontend. I am most comfortable doing this
-          with Node, Express, MongoDB. I am experienced with Polymer, Angular,
-          and React. If you have another framework or language that you wish to
+          with Node, Express, MongoDB. I am experienced with Vue, React, Polymer and Angular. 
+          If you have another framework or language that you wish to
           use I am open to discussion.
         </p>
 
         <p class="title secondary--text">Frontend Work</p>
         <p>
           Can build a modern web application using modern frameworks such as
-          React. Comfortable building frontends with a variety of frameworks. I
-          am most comfortable doing this with Polymer, React or Angular. From my
+          Vue or React. Comfortable building frontends with a variety of frameworks. I
+          am most comfortable doing this with React or Vue. From my
           experience I believe that if you have a different framework in mind,
           this should not be a huge problem. I keep up with most developments
           regarding frontend frameworks.
@@ -35,7 +35,7 @@
         <p>
           Can build servers serving up an API or handle auth. Comfortable
           building the backend and database. I am most comfortable doing this
-          with Node, Express, and MongoDB. I can also do some basic maintenance
+          with Node, Express, and MongoDB. Happy to use something such as Postgres as well. I can also do some basic maintenance
           and updates for .NET and PHP servers. I am also familiar with SQL
           database database management. If you have another framework or
           language that you wish to use I am open to discussion.
@@ -58,9 +58,9 @@
         <p>I accept any major cryptocurrency, DAI, or euros.</p>
 
         <p class="title secondary--text">Availability</p>
+        <p><g-link to="/contact">Contact</g-link> me to check availability.</p>
         <p>
-          I am currently available for part time work which is either remote or
-          on-site in Berlin for 2 - 3 days / week. I only work freelance.
+          I am willing to work either remote or on-site in Berlin.
         </p>
 
         <p class="title secondary--text">Further Discussion</p>

@@ -1,6 +1,6 @@
 ---
 framework: Vue
-experience: 6 Months
+experience: expert
 weight: 93
 ---
 

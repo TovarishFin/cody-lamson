@@ -1,6 +1,6 @@
 ---
 framework: Open Zeppelin
-experience: 2 years
+experience: proficient
 weight: 99
 ---
 

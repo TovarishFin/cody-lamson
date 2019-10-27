@@ -1,6 +1,6 @@
 ---
 framework: .NET
-experience: 6 months
+experience: beginner
 weight: -1
 ---
 

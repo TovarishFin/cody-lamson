@@ -1,6 +1,6 @@
 ---
 language: Python
-experience: 0.5 years
+experience: beginner
 weight: 93
 ---
 

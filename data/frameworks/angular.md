@@ -1,6 +1,6 @@
 ---
-framework: Angular
-experience: 4 years
+framework: AngularJs
+experience: intermediate
 weight: 0
 ---
 

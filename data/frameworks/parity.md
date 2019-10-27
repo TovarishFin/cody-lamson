@@ -1,6 +1,6 @@
 ---
 framework: Parity
-experience: 2 years
+experience: proficient
 weight: 98
 ---
 

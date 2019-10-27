@@ -1,6 +1,6 @@
 ---
 language: CSS
-experience: 9 years
+experience: proficient
 weight: 97
 ---
 ## Experience

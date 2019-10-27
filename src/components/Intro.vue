@@ -24,23 +24,27 @@
       <p class="headline primary--text">A Brief History of Cody</p>
       <p>
         I am a full stack web developer who has spent the last several years
-        working with ethereum. However, I have been following the cryptocurrency
-        scene since 2012 (mostly bitcoin). In the past few years I have worked
-        with smart contracts as well as the DApps that connect to them. I strive
+        working with a variety of different blockchains, though mostly focusing on ethereum. However, I have been following the cryptocurrency
+        scene since 2012 (mostly bitcoin at the start). In the past few years I have been working
+        with smart contracts as well as the web interfaces (DApps) that connect to them. I strive
         to write very high quality code which is extensively tested. This is
         extremely important for things such as smart contracts where you need to
         "get it right the first time". I have a variety of different smart
-        contract related projects which are public on my
+        contract related projects (both personal and professional) which are public on my
         <a target="_blank" href="https://github.com/TovarishFin">GitHub</a>. I
         am most comfortable working with solidity and javascript through I am
-        always happy to branch out and learn new things.
+        currently spending most of my free time getting into rust.
       </p>
 
       <p>
-        Before my work with ethereum related projects, I worked on various
-        projects in both a backend and frontend capacity. The most notable
-        company that I did work for was Adidas, where I was working on backend
-        for a join venture between Adidas and Ottobock. I have built some other
+        I currently work at Porsche Digital Lab where I help take experimental blockchain concepts to the next level.
+      </p>
+
+      <p>
+        Before my work with blockchain related projects, I worked on various
+        web projects in both a backend and frontend capacity. The most notable
+        company that I did work for was Adidas, where I was working on a backend
+        for a joint venture between Adidas and Ottobock. I have built some other
         neat things for smaller clients such as a care home management system
         where most of the work was frontend focused (though I did build the
         supporting backend as well).
@@ -139,9 +143,9 @@
       <p class="font-weight-bold subheading">IPFS</p>
       <p>
         IPFS offers some very neat features that work well with smart contracts
-        and data integrity. I Have used for large data storage requirements for
-        smart contracts at Brickblock. Have also used for storing wedding photos
-        on CryptoWeddings
+        and data integrity. I Have used it for large data storage requirements for
+        smart contracts at Brickblock and other projects. I also currently run and 
+        maintain an IPFS node.
       </p>
 
       <p class="title secondary--text">Javascript</p>
@@ -161,7 +165,7 @@
         experience with real-time database functionality along with all of the
         benefits and headaches that come with it. As stated above, I have
         experience with a wide range of frameworks, such as Vue, React, and
-        Angular.s
+        AngularJS
       </p>
 
       <p class="title secondary--text">Backend Work</p>
@@ -169,62 +173,30 @@
         Regarding server side work, I have spent considerable time building APIs
         using node as well as leveraging the server to create server side
         rendered web applications. I have quite a bit of experience with MongoDB
-        and have a bit of experience with postgres. Lately ethereum has been my
+        and have a bit of experience with postgres. Lately Ethereum has been my
         "backend" for most of the applications I have been writing.
       </p>
 
-      <p class="headline primary--text">Currently Learning/Improving</p>
+      <p class="headline primary--text">Currently Learning/Interested in...</p>
 
       <p class="title secondary--text">
-        State Channels & Other 2nd layer solutions
+        State Channels, Plasma, & Other 2nd layer solutions
       </p>
       <p>
-        I find state channels to be fascinating and have been doing research
-        learning different approaches to the topic. The most fascinating that I
-        have found so far is the generalized solution given by
-        <a href="https://www.counterfactual.com/">counterfactual</a> If you
-        haven't read their whitepaper, I highly suggest you do!
+        I have spent time looking at different state channel implementations which are an incredibly interesting topic. I have been playing around with Loom Networks <a target="_blank" href="https://loomx.io/">DappChain</a> lately.
       </p>
 
-      <p class="title secondary--text">
-        Other Smart Contract Blockchains
+      <p class="title secondary--text">Counterfactual Smart Contract Wallets, Gas Station Network, Useability in General</p>
+      <p>
+        There are some amazing projects out right now which will enable regular users to use blockchain application without even knowing they are using blokchain. I am have been trying out and seeing how these new patterns can fit into future projects in order to further ease user onboarding.
       </p>
       <p>
-        I have spent some time learning how things work in EOS and would am
-        trying to find the time to spend some time building a real project with
-        it. There are some very neat differences between EOS and Ethereum that
-        would make building a project with it interesting...
+        Several specific projects I am very excited to see come to production are <a target="_blank" href="https://universallogin.io/">universal login</a> and <a target="_blank" href="http://abridged.io/">abridged</a>.
       </p>
 
-      <p class="title secondary--text">Kubernetes</p>
+      <p class="title secondary--text">Rust</p>
       <p>
-        I have also started lightly getting into dev ops using Kubernetes and
-        Google Cloud.
-      </p>
-
-      <p class="title secondary--text">Go</p>
-      <p>
-        This is a language that I really want to get into but haven't had the
-        time to create any significant projects with it. Currently I am using it
-        to create a bitcoin blockchain clone. I want to eventually look into
-        rebuilding geth from scratch. It would be a great learning experience to
-        see how the Ethereum EVM works and get a better grasp on go as well.
-      </p>
-
-      <p class="title secondary--text">Python</p>
-      <p>
-        Have used for small projects. Most recently I have used it for using
-        µRaiden in order to make off-chain ERC20 token transfers on the Ethereum
-        blockchain. I have noticed more and more neat ethereum related tools
-        being built using python... definitely need to spend more time getting
-        better with python.
-      </p>
-
-      <p class="title secondary--text">Teamwork</p>
-      <p>
-        Over the past few years I have gained more experience working in an
-        agile teams. I am always working to improve my own teamwork and
-        organizational skills.
+        I have started getting into rust because, one: I hear nothing but good things about the language, and two: it seems that web assembly will be playing an important role in many different blockchain implementations in the future. Having played with c++ before, I can really appreciate the benefits of using rust instead for compiling down to web assembly.
       </p>
 
       <p class="headline primary--text">Previous Work and Pet Projects</p>
