@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[21],{73:function(n){n.exports={data:{post:{title:"some article",content:'<h2 id="some-article"><a href="#some-article" aria-hidden="true"><span class="icon icon-link"></span></a>Some Article</h2>\n<p>This is <strong>some</strong> content for this blog</p>\n'}}}}}]);
